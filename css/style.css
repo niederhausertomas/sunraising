@@ -1,0 +1,627 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Helvetica, sans-serif;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+nav{
+    border-bottom: solid 2px white;
+}
+
+.active_nav {
+    background-color: #1493C6;
+    transition: 2s;
+}
+
+.logo{
+    height: 45px;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+.navItem1{
+    margin: 20px 25px 7px 25px;
+}
+
+.navItem1 a{
+    color: white;
+    font-family: helvetica;
+    font-size: 12px;
+    font-weight: bold;
+}
+
+.desplegable{
+    background: rgba(255, 255, 255, 0.308);
+    border-radius: 0%;
+    border: none;
+}
+
+.navItem2{
+    margin: 10px 2px 10px 130px;
+}
+
+.navItem2 a{
+    border: solid 2px white;
+    object-fit: cover;
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    margin: 6px;
+    padding-top: 3px;
+}
+
+.navItem3{
+    margin: 10px 50px 10px 2px;
+}
+
+.navItem3 a{
+    border: solid 2px white;
+    object-fit: cover;
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    margin: 6px;
+    padding-top: 3px;
+}
+
+.flecha{
+    height: 45px;
+    width: 45px;
+}
+
+.informacion{
+    color: white;
+    font-size: 22px;
+    font-weight: 50px;
+    height: 50px;
+    width: 170px;
+    position: absolute;
+    background: none;
+    border: solid 2px white;
+    border-radius: 5%;
+    margin: -160px 42% 0px 42%;
+}
+
+.informacion:hover{
+    background-color: #3730334d;
+}
+
+#btnWhatsApp{
+position: fixed;
+bottom: 40px;
+right: 40px;
+height: 40px;
+width: 40px;
+line-height: 35px;
+text-align: center;
+color: #fff;
+z-index: 1000;
+background-color: #00CD54;
+border-radius: 50%;
+cursor: pointer;
+}
+
+.circles{
+    height: 720px;
+}
+
+.card1{
+    margin-top: 150px;
+    margin-bottom: 100px;
+    border: none;
+    align-items: center;
+    text-align: center;
+}
+
+.card1 img{
+    border-radius: 50%;
+    height: 170px;
+    width: 170px;
+}
+
+.car1 h5{
+    color: #373033;
+    font-weight: 900;
+}
+
+.card1 p{
+    font-size: 14px;
+}
+
+.informacion2{
+    color: #1493C6;
+    font-size: 22px;
+    font-weight: 50px;
+    height: 50px;
+    width: 170px;
+    position: absolute;
+    background: none;
+    border: solid 2px #1493C6;
+    border-radius: 5%;
+    margin: -160px 40% 0px 44%;
+}
+
+.informacion2:hover{
+    background-color: #04212c38;
+    border: solid 2px #167ba3;
+    color: #1493C6;
+}
+
+.scott{
+    height: 500px;
+    width: 100%;
+}
+
+.beneficios{
+    height: 1100px;
+}
+
+.beneficiosH2{
+    text-align: center;
+    margin-top: 140px;
+    font-size: 28px;
+}
+
+.card2{
+    margin-top: 75px;
+    margin-bottom: 75px;
+    border: none;
+    align-items: center;
+    text-align: center;
+}
+
+.card2 img{
+    height: 160px;
+    width: 140px;
+}
+
+.card1 p{
+    font-size: 14px;
+}
+
+.soluciones{
+    height: 600px;
+}
+
+#solucionesSegmento{
+    position:absolute;
+    margin-top: -50px;
+}
+
+.solucionesH2{
+    text-align: center;
+    margin-top: 120px;
+    font-size: 28px;
+}
+
+.card3{
+    margin-top: 150px;
+    margin-bottom: 100px;
+    border: none;
+    align-items: center;
+}
+
+.barra{
+    height: 50px;
+    width: 180px;
+    border-radius: 4%;
+    clip-path: polygon(0% 0%, 90% 0%, 100% 50%, 90% 100%, 0% 100%);
+    color: white;
+    padding-top: 15px;
+    padding-left: 30px;
+    font-size: 12px;
+}
+
+.barra1{
+    background-color: #1493C6;
+}
+
+.barra2{
+    background-color: #5EB5F4;
+}
+
+.barra3{
+    background-color: #86C7F6;
+}
+
+.barra4{
+    background-color: #0077C1;
+}
+
+.barra5{
+    background-color: none;
+    position: absolute;
+
+    height: 50px;
+    width: 180px;
+    border-radius: 4%;
+    clip-path: polygon(0% -50%, 90% 0%, 100% 50%, 90% 100%, 0% 100%);
+    color: rgba(255, 255, 255, 0);
+    padding-top: 15px;
+    font-size: 10px;
+    z-index: 1;
+}
+
+.barra5:hover{
+    background-color: #F4F4F4;
+    transition: 1s;
+    color: #1493C6;
+    width: 260px;
+    padding-left: 190px;
+    background: linear-gradient(to right, rgba(0, 0, 0, 0), #F4F4F4);
+}
+
+.contacto{
+    height: 700px;
+}
+
+.fotoContacto{
+    height: 500px;
+    width: 100%;
+}
+
+.contactoH2{
+    text-align: center;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    font-size: 28px;
+    color: white;
+}
+
+
+.contacto2{
+    height: 550px;
+    width: 450px;
+    margin-left: 35%;
+    padding-top: 30px;
+}
+
+.contact-form {
+    background: none
+}
+
+.contact-form form {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.contact-form form label {
+    display: block;
+}
+
+.contactop {
+    margin: 0;
+    padding: 7px;
+}
+
+.contact-form form .block {
+    grid-column: 1 / 3;
+}
+
+.contact-form form button,
+.contact-form form input,
+.contact-form form textarea {
+    width: 100%;
+    padding: .3em;
+    border: none;
+    background: none;
+    outline: 0;
+    color: black;
+    background: white;
+    margin-top: 5px;
+    font-size: 12px;
+}
+
+.contact-form form button {
+    background:none;
+    color: white;
+    font-size: 11px;
+    font-weight: 25px;
+    height: 30px;
+    width: 85px;
+    padding: 1px;
+    border: solid 1px white;
+    border-radius: 5%;
+    margin-left: 40%;
+}
+
+.contact-form form button:hover,
+.contact-form form button:focus {
+    background: rgba(0, 0, 0, 0.274);
+    color: #fff;
+    transition: background-color 1s ease-out;
+    outline: 0;
+}
+
+.contactoM{
+    margin: 0;
+    padding: 7px;
+    padding-bottom: 0;
+    margin-left: 1px;
+}
+
+.CamposObligatorios{
+    color: #626262;
+    font-size: 12px;
+    margin-top: 0px;
+    padding-top: 0;
+    margin-left: 7px;
+}
+
+.fotoContacto{
+    position: absolute;
+    margin-top: -560px;
+    z-index: -100;
+    height: 700px;
+}
+
+footer{
+    height: 400px;
+}
+
+.logo2{
+    height: 45px;
+    margin-left: 50px;
+    margin-right: 100px;
+    margin-top: 50px;
+    background-color: violet;
+}
+
+.aFooter{
+    font-size: 12px;
+    text-decoration: none;
+    display: block;
+    color: #7F7F7F;
+    margin-left: 107px;
+    margin-top: 20px;
+}
+
+.aFooter2{
+
+    width: 75%;
+    margin-left: 25%;
+    color: #7F7F7F;
+    font-size: 17px;
+    margin-top: -35px;
+    margin-bottom: 50px;
+}
+
+.aFooter:hover{
+    cursor: pointer;
+    color: #686767;
+}
+
+.aFooter2 div a svg {
+    margin: 0px 30px 0px 25px;
+}
+
+.aFooter2 div a svg:hover{
+    cursor: pointer;
+    color: #686767;
+}
+
+.manu1{
+    margin-bottom: 0;
+}
+
+.manu2{
+    margin-top: 0;
+}
+
+.derechos{
+    font-size: 14px;
+    color: #7F7F7F;
+    margin-bottom: 20px;
+}
+
+.conteinerPortadaNosotros{
+    height: 590px;
+}
+
+.imgNosotros{
+    width: 100%;
+    object-fit: contain;
+}
+
+.containerSomos{
+    height: 800px;
+}
+
+.containerSomos h3{
+    margin-top: 100px;
+    margin-bottom: 50px;
+}
+
+.containerSomos p{
+    margin-bottom: 50px;
+    font-size: 20px;
+}
+
+.fotovoltaica{
+    margin-top: 150px;
+    margin-bottom: 100px;
+}
+
+.mitad1{
+    width: 43%;
+    height: 750px;
+}
+
+.mitad2{
+    width: 50%;
+    height: 750px;
+}
+
+.ongridFoto1{
+    height: 340px;
+    margin: 65px 10px 100px 160px;
+}
+
+.mitad2 h3{
+    font-size: 32px;
+    margin-bottom: 20px;
+}
+
+.mitad2 p{
+    font-size: 19px;
+}
+
+.mitad3{
+    width: 40%;
+    height: 750px;
+    margin-top: 150px;
+}
+
+.mitad4{
+    width: 50%;
+    height: 750px;
+    margin-top: 150px;
+    margin-left: 160px;
+}
+
+.ongridFoto3{
+    height: 590px;
+    margin: 65px 10px 100px 50px;
+}
+
+.mitad4 h3{
+    font-size: 32px;
+    margin-bottom: 20px;
+}
+
+.mitad4 p{
+    font-size: 19px;
+}
+
+.mitad5{
+    width: 43%;
+    height: 750px;
+    margin-top: 150px;
+}
+
+.mitad6{
+    width: 50%;
+    height: 750px;
+    margin-top: 150px;
+}
+
+.ongridFoto5{
+    height: 260px;
+    margin: 65px 10px 100px 160px;
+}
+
+.mitad6 h3{
+    font-size: 32px;
+    margin-bottom: 20px;
+}
+
+.mitad6 p{
+    font-size: 19px;
+}
+
+.informacion3{
+    color: #1493C6;
+    font-size: 22px;
+    font-weight: 50px;
+    height: 50px;
+    width: 170px;
+    background: none;
+    border: solid 2px #1493C6;
+    border-radius: 5%;
+    margin: 10px 40% 150px 44%;
+}
+
+.termotanqueInicio{
+    width: 100%;
+}
+
+.termotanques{
+    margin-top: 150px;
+    margin-bottom: 100px;
+}
+
+.termo1{
+    width: 43%;
+    height: 750px;
+}
+
+.termo2{
+    width: 50%;
+    height: 750px;
+}
+
+.termoFoto1{
+    height: 340px;
+    margin: 65px 10px 100px 160px;
+}
+
+.termo2 h3{
+    font-size: 32px;
+    margin-bottom: 20px;
+}
+
+.termoDibujo{
+    background-color: #626262;
+    height: 450px;
+}
+
+.termo1 p{
+    font-size: 17px;
+    padding-left: 200px;
+}
+
+.termoCards{
+    padding-left: 50px;
+    padding-right: 50px;
+    margin-bottom: 100px;
+}
+
+.termocard{
+    margin-top: 75px;
+    margin-bottom: 75px;
+    border: none;
+    align-items: center;
+    text-align: center;
+}
+
+.termocard img{
+    height: 110px;
+    width: 100px;
+}
+
+.picinaInicio{
+    background-color: #626262;
+    width: 100%;
+    height: 500px;
+}
+
+.colectoresFoto1{
+    height: 325px;
+    margin: 65px 40px 100px 100px;
+}
+
+#colectoresP{
+    font-size: 17px;
+}
+
+.picinasmitad1{
+    width: 45%;
+    height: 550px;
+}
+
+@media only screen and (max-width: 420px) {
+
+}
+
+@media only screen and (min-width: 421px) and (max-width: 1023px) {
+
+}
+
+@media only screen and (min-width: 1024px) {
+
+}
