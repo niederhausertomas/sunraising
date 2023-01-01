@@ -251,6 +251,7 @@ cursor: pointer;
     background-color: #F4F4F4;
     transition: 1s;
     color: #1493C6;
+    text-decoration: none;
     width: 260px;
     padding-left: 190px;
     background: linear-gradient(to right, rgba(0, 0, 0, 0), #F4F4F4);
@@ -612,6 +613,92 @@ footer{
 .picinasmitad1{
     width: 45%;
     height: 550px;
+}
+
+.picinasmitad2{
+    width: 45%;
+    height: 550px;
+}
+
+.colectoresFoto2{
+    height: 315px;
+    margin: 55px 40px 50px -30px;
+}
+
+#pi{
+    padding-left: 100px;
+}
+
+.extende{
+    margin-left: 100px;
+    font-size: 17px;
+    font-style: italic;
+}
+
+.graficosDeTorta{
+    width: 100%;
+    height: 300px;
+    background-color: #626262;
+}
+
+.esquema{
+    margin-left: 100px;
+}
+
+.graficosDeCasa{
+    width: 1200px;
+    height: 600px;
+    background-color: #626262;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+.bombeoInicio{
+    width: 100%;
+}
+
+.contenedorBombeo{
+    width: 80%;
+    height: 600px;
+    margin: 40px 150px 50px 150px;
+}
+
+.divBombeo{
+    height: 270px;
+    width: 500px;
+    margin: 20px 20px 0px 25px;
+}
+
+.divBombeo img{
+    height: 270px;
+    width: 100%;
+}
+
+.divBombeo p{
+    margin-left: 20px;
+    font-size: 15px;
+}
+
+.esquema{
+    margin-left: 170px;
+}
+
+.graficoEsquema{
+    height: 600px;
+    width: 1100px;
+    background-color: #626262;
+    margin-left: 170px;
+    margin-bottom: 50px;
+}
+
+.cardProyectos{
+    border: none;
+    margin-bottom: 50px;
+}
+
+#contact{
+    position: absolute;
+    margin-top: -50px;
 }
 
 @media only screen and (max-width: 420px) {
