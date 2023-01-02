@@ -715,9 +715,7 @@ footer{
 @media only screen and (max-width: 420px) {
     * {
         overflow-x: hidden; }
-    nav{
-        width: 375px;
-   }
+
 
     .logo{
         margin-left: 5px;
@@ -727,6 +725,32 @@ footer{
     
     .navItem1{
         margin: 5px 0px 5px 0px;
+    }
+
+    .navItem3{
+        margin: 0px 0px 0px 0px;;
+    }
+
+    .navItem3 a{
+        border: none;
+        width: 0px;
+        height: 0px;
+        border-radius: 0%;
+        margin: 0px 0px 0px 0px;
+        padding: 0px 0px 0px 0px;
+    }
+
+    .navItem2{
+        margin: 0px 0px 0px 0px;;
+    }
+
+    .navItem2 a{
+        border: none;
+        width: 0px;
+        height: 0px;
+        border-radius: 0%;
+        margin: 0px 0px 0px 0px;
+        padding: 0px 0px 0px 0px;
     }
 
     .informacion{
