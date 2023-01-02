@@ -110,6 +110,11 @@ cursor: pointer;
     height: 720px;
 }
 
+.circlesCards{
+    display: flex;
+    justify-content: space-evenly;
+}
+
 .card1{
     margin-top: 150px;
     margin-bottom: 100px;
@@ -197,6 +202,11 @@ cursor: pointer;
     text-align: center;
     margin-top: 120px;
     font-size: 28px;
+}
+
+.cards3Soluciones{
+    display: flex;
+    justify-content: space-evenly;
 }
 
 .card3{
@@ -383,7 +393,8 @@ footer{
 }
 
 .aFooter2{
-
+    display: flex;
+    justify-content: space-evenly;
     width: 75%;
     margin-left: 25%;
     color: #7F7F7F;
@@ -702,11 +713,181 @@ footer{
 }
 
 @media only screen and (max-width: 420px) {
+    * {
+        overflow-x: hidden; }
+    nav{
+        width: 375px;
+   }
+
+    .logo{
+        margin-left: 5px;
+        margin-right: 0px;
+    }
+
+    
+    .navItem1{
+        margin: 5px 0px 5px 0px;
+    }
+
+    .informacion{
+        margin: -50px 30% 0px 30%;
+    }
+
+    .circles{
+        height: 1120px;
+    }
+
+    .circlesCards{
+        display: block;
+    }
+
+    .card{
+        display: block;
+        margin-left: 40px;
+    }
+
+    .card1 img{
+        height: 70px;
+        width: 70px;
+    }
+
+    .card1{
+        margin-top: 50px;
+        margin-bottom: 50px;
+    }
+
+    .card1 h5{
+        font-size: 15px;
+    }
+
+    .card1 p{
+        font-size: 13px;
+    }
+
+    .informacion2{
+        margin-left: 110px;
+    }
+
+    .scott{
+    height: 300px;
+    }
+
+    .beneficiosH2{
+    margin-top: 100px;
+    font-size: 20px;
+    }
+
+    .card2{
+        margin-top: 60px 10px 60px 10px;
+        padding: 0;
+        
+    }
+
+    .card2 img{
+    height: 100px;
+    width: 80px;
+    }
+
+    .cardBody{
+        padding: 0;
+    }
+
+    .card2 p{
+        font-size: 13px;
+    }
+
+    .soluciones{
+    height: 950px;
+    }
+
+    .solucionesH2{
+    margin-top: 100px;
+    font-size: 25px;
+    }
+
+    .cards3Soluciones{
+    display: block;
+    }
+
+    .card3{
+    margin-top: 50px;
+    margin-bottom: 50px;
+    }
+
+    .card3 h5{
+        font-size: 18px;
+    }
+
+    .contacto{
+        height: 450px;
+    }
+
+    .contenedorContacto{
+        height: 350px;
+    }
+    
+    .fotoContacto{
+    height: 350px;
+    margin-top: -350px;
+    }
+
+    .contactoH2{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-size: 20px;
+    }
+
+    .contacto2{
+    height: 350px;
+    width: 90%;
+    margin-left: 10px;
+    padding-top: 10px;
+    margin-bottom: 0px;
+    }
+
+    footer{
+        margin-top: 0;
+        width: 100%;
+        height: 500px;
+    }
+
+    .logo2{
+    height: 25px;
+    margin-left: 15px;
+    margin-right: 50px;
+    margin-top: 15px;
+    }
+
+    .aFooter{
+    font-size: 14px;
+    margin-left: 10px;
+    margin-top: 20px;
+    }
+
+    .aFooter2{
+    display: block;
+    width: 900%;
+    margin-left: 10px;
+    color: #7F7F7F;
+    font-size: 17px;
+    margin-top: 30px;
+    margin-bottom: 50px;
+    }
+
+    .aFooter2 div a svg {
+    margin: 0px 20px 10px 10px;
+    }
+
+    .derechos{
+    font-size: 10px;
+    margin-bottom: 10px;
+    }
 
 }
 
 @media only screen and (min-width: 421px) and (max-width: 1023px) {
-
+    * {
+        overflow-x: hidden; }
 }
 
 @media only screen and (min-width: 1024px) {
