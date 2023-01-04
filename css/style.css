@@ -13,6 +13,10 @@ nav{
     border-bottom: solid 2px white;
 }
 
+.nav2{
+    border-bottom: none;
+}
+
 .active_nav {
     background-color: #1493C6;
     transition: 2s;
@@ -35,6 +39,12 @@ nav{
     font-weight: bold;
 }
 
+.navItem1 a:hover{
+    color: #aaa7a7;
+    padding-top: 11px;
+    transition: 0.5s;
+}
+
 .desplegable{
     background: rgba(255, 255, 255, 0.308);
     border-radius: 0%;
@@ -47,12 +57,24 @@ nav{
 
 .navItem2 a{
     border: solid 2px white;
+    fill: white;
     object-fit: cover;
     width: 35px;
     height: 35px;
     border-radius: 50%;
     margin: 6px;
     padding-top: 3px;
+}
+
+.navItem2:hover a{
+    border: solid 2px #aaa7a7;
+    fill: #aaa7a7; 
+}
+
+.navItem2:hover{
+    padding-top: 2px;
+    margin-bottom: -2px;
+    transition: 0.5s; 
 }
 
 .navItem3{
@@ -67,6 +89,18 @@ nav{
     border-radius: 50%;
     margin: 6px;
     padding-top: 3px;
+    fill: white;
+}
+
+.navItem3:hover a{
+    border: solid 2px #aaa7a7;
+    fill: #aaa7a7; 
+}
+
+.navItem3:hover{
+    padding-top: 2px;
+    margin-bottom: -2px;
+    transition: 0.5s; 
 }
 
 .flecha{
@@ -88,7 +122,11 @@ nav{
 }
 
 .informacion:hover{
-    background-color: #3730334d;
+    margin-top: -158px;
+    transition: 0.5s;
+    background-color: none;
+    border: solid 2px #aaa7a7;
+    color: #aaa7a7; 
 }
 
 #btnWhatsApp{
@@ -104,6 +142,11 @@ z-index: 1000;
 background-color: #00CD54;
 border-radius: 50%;
 cursor: pointer;
+}
+
+#btnWhatsApp:hover{
+    bottom: 38px;
+    transition: 0.5s;
 }
 
 .circles{
@@ -123,15 +166,24 @@ cursor: pointer;
     text-align: center;
 }
 
+.btnCircles{
+    text-decoration: none;
+    color: black;
+}
+
+.btnCircles:hover{
+    color: black;
+    opacity: 70%;
+}
+
+.btnCircles h5:hover{
+    text-decoration: none;   
+}
+
 .card1 img{
     border-radius: 50%;
     height: 170px;
     width: 170px;
-}
-
-.car1 h5{
-    color: #373033;
-    font-weight: 900;
 }
 
 .card1 p{
@@ -152,15 +204,26 @@ cursor: pointer;
 }
 
 .informacion2:hover{
-    background-color: #04212c38;
-    border: solid 2px #167ba3;
-    color: #1493C6;
+    margin-top: -158px;
+    transition: 0.5s;
+    background-color: none;
+    border: solid 2px #aaa7a7;
+    color: #aaa7a7; 
 }
 
-.scott{
+#scott{
     height: 500px;
     width: 100%;
-}
+    font-size: 50px;
+    text-align: center;
+    color: white;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    background-image: url("/images/pexels-scott-webb-137602R.jpg"); }
+
 
 .beneficios{
     height: 1100px;
@@ -188,6 +251,20 @@ cursor: pointer;
 .card1 p{
     font-size: 14px;
 }
+
+#scott2{
+    height: 500px;
+    width: 100%;
+    font-size: 50px;
+    text-align: center;
+    color: white;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    background-image: url("/images/pexels-pixabay-356049R.jpg"); }
+
 
 .soluciones{
     height: 600px;
@@ -229,42 +306,37 @@ cursor: pointer;
 
 .barra1{
     background-color: #1493C6;
+    z-index: 10;
 }
 
 .barra2{
     background-color: #5EB5F4;
+    z-index: 10;
 }
 
 .barra3{
     background-color: #86C7F6;
+    z-index: 10;
 }
 
 .barra4{
     background-color: #0077C1;
+    z-index: 10;
 }
 
 .barra5{
-    background-color: none;
+    background-color: #F4F4F4;
     position: absolute;
-
     height: 50px;
-    width: 180px;
+    width: 100px;
     border-radius: 4%;
-    clip-path: polygon(0% -50%, 90% 0%, 100% 50%, 90% 100%, 0% 100%);
+    clip-path: polygon(0% -50%, 80% 0%, 100% 50%, 80% 100%, 0% 100%);
     color: rgba(255, 255, 255, 0);
     padding-top: 15px;
     font-size: 10px;
-    z-index: 1;
-}
-
-.barra5:hover{
-    background-color: #F4F4F4;
-    transition: 1s;
     color: #1493C6;
     text-decoration: none;
-    width: 260px;
-    padding-left: 190px;
-    background: linear-gradient(to right, rgba(0, 0, 0, 0), #F4F4F4);
+    margin-left: 60px;
 }
 
 .contacto{
@@ -366,13 +438,15 @@ cursor: pointer;
 
 .fotoContacto{
     position: absolute;
-    margin-top: -560px;
+    margin-top: -550px;
     z-index: -100;
     height: 700px;
 }
 
 footer{
+    margin-top: 0;
     height: 400px;
+    background-color: #F4F4F4;
 }
 
 .logo2{
@@ -380,7 +454,6 @@ footer{
     margin-left: 50px;
     margin-right: 100px;
     margin-top: 50px;
-    background-color: violet;
 }
 
 .aFooter{
@@ -390,6 +463,7 @@ footer{
     color: #7F7F7F;
     margin-left: 107px;
     margin-top: 20px;
+    width: 100px;
 }
 
 .aFooter2{
@@ -405,7 +479,7 @@ footer{
 
 .aFooter:hover{
     cursor: pointer;
-    color: #686767;
+    color: #525151;
 }
 
 .aFooter2 div a svg {
@@ -711,6 +785,8 @@ footer{
     position: absolute;
     margin-top: -50px;
 }
+
+
 
 @media only screen and (max-width: 420px) {
     * {
