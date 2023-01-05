@@ -533,6 +533,10 @@ footer{
     margin-bottom: 100px;
 }
 
+.containerOnGrid{
+    display: flex;
+}
+
 .mitad1{
     width: 43%;
     height: 750px;
@@ -622,6 +626,15 @@ footer{
     margin: 10px 40% 150px 44%;
 }
 
+.informacion3:hover{
+    margin-top: 2px;
+    margin-bottom: 158px;
+    transition: 0.5s;
+    background-color: none;
+    border: solid 2px #aaa7a7;
+    color: #aaa7a7; 
+}
+
 .termotanqueInicio{
     width: 100%;
 }
@@ -652,8 +665,12 @@ footer{
 }
 
 .termoDibujo{
-    background-color: #626262;
     height: 450px;
+}
+
+.termoFoto1{
+    height: 450px;
+    margin: 0;
 }
 
 .termo1 p{
@@ -667,6 +684,11 @@ footer{
     margin-bottom: 100px;
 }
 
+.termoCardsFlex{
+    display: flex;
+    justify-content: space-evenly;
+}
+
 .termocard{
     margin-top: 75px;
     margin-bottom: 75px;
@@ -676,8 +698,8 @@ footer{
 }
 
 .termocard img{
-    height: 110px;
-    width: 100px;
+    height: 60px;
+    width: 60px;
 }
 
 .picinaInicio{
@@ -721,21 +743,33 @@ footer{
 }
 
 .graficosDeTorta{
-    width: 100%;
-    height: 300px;
-    background-color: #626262;
+    width: 80%;
+    height: 250px;
+    margin-left: 150px;
+    padding-left: 160px;
 }
 
 .esquema{
+    margin-left: 170px;
+    padding-left: 0;
+    margin-top: 150px;
+    margin-bottom: 25px;
+    width: 500px;
+    font-size: 30px;
+}
+
+.esquema1{
     margin-left: 100px;
+    padding-left: 0;
+    margin-top: 150px;
+    margin-bottom: 25px;
+    width: 500px;
+    font-size: 30px;
 }
 
 .graficosDeCasa{
-    width: 1200px;
-    height: 600px;
-    background-color: #626262;
-    margin-left: 100px;
-    margin-right: 100px;
+    height: 650px;
+    margin: 50px 100px 50px 150px;
 }
 
 .bombeoInicio{
@@ -746,6 +780,10 @@ footer{
     width: 80%;
     height: 600px;
     margin: 40px 150px 50px 150px;
+}
+
+.bomber{
+    display: flex;
 }
 
 .divBombeo{
@@ -764,16 +802,16 @@ footer{
     font-size: 15px;
 }
 
-.esquema{
-    margin-left: 170px;
-}
-
 .graficoEsquema{
-    height: 600px;
+    height: 700px;
     width: 1100px;
-    background-color: #626262;
     margin-left: 170px;
     margin-bottom: 50px;
+}
+
+.cardProyectoCel{
+    display: flex;
+    justify-content: space-evenly;
 }
 
 .cardProyectos{
@@ -795,16 +833,29 @@ footer{
 
     .logo{
         margin-left: 5px;
-        margin-right: 0px;
+        margin-right: 20px;
+        height: 30px;
+    }
+
+    .navbar-toggler-icon{
+        background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgb(236, 229, 229)' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
+    }
+
+    .navbar-toggler{
+        border: 6px solid rgb(255, 255, 255);
+        top: 5px;
+        right: 5px;
     }
 
     
     .navItem1{
-        margin: 5px 0px 5px 0px;
+        margin: 5px 0px 0px 0px;
+        width: 100px;
     }
 
     .navItem3{
-        margin: 0px 0px 0px 0px;;
+        margin: 0px 0px 0px 0px;
+        padding: 0px 0px 0px 0px;
     }
 
     .navItem3 a{
@@ -827,6 +878,10 @@ footer{
         border-radius: 0%;
         margin: 0px 0px 0px 0px;
         padding: 0px 0px 0px 0px;
+    }
+
+    .carouselImg{
+    width: 550px;
     }
 
     .informacion{
@@ -877,8 +932,13 @@ footer{
     font-size: 20px;
     }
 
+.cards2{
+    height: 670px;
+    margin-bottom: -20px;
+}
+
     .card2{
-        margin-top: 60px 10px 60px 10px;
+        margin: 50px 10px 50px 10px;
         padding: 0;
         
     }
@@ -946,7 +1006,7 @@ footer{
     }
 
     footer{
-        margin-top: 0;
+        margin-top: -100px;
         width: 100%;
         height: 500px;
     }
@@ -982,6 +1042,247 @@ footer{
     font-size: 10px;
     margin-bottom: 10px;
     }
+
+.conteinerPortadaNosotros{
+    height: 400px;
+}
+
+.imgNosotros{
+    height: 400px;
+    width: 900px;
+    margin-left: -300px;
+}
+
+.containerSomos{
+    height: 1200px;
+}
+
+.cardProyectoCel{
+    display: block;
+}
+
+#spaceFooterProyectos{
+    height: 70px;
+}
+
+
+/*fotovoltaica*/
+.containerOnGrid{
+    display: block;
+}
+
+.mitad1{
+    width: 100%;
+    height: 350px;
+}
+
+.ongridFoto1{
+    height: 310px;
+    margin: 0px 10px 20px 10px;
+}
+
+.mitad2{
+    width: 100%;
+    padding-left: 20px;
+    padding-right: 20px;
+    height: 1300px;
+}
+
+.mitad4{
+    width: 100%;
+    height: 1000px;
+    margin: 0;
+    margin-top: 550px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.mitad3{
+    width: 100%;
+    height: 520px;
+    margin-top: -1550px;
+    position: absolute;
+}
+
+.ongridFoto3{
+    height: 500px;
+    margin: 0px 0px 0px 20px;
+}
+
+.mitad5{
+    width: 100%;
+    height: 300px;
+    margin-top: 0px;
+}
+
+.ongridFoto5{
+    margin: 50px 20px 20px 20px;
+    height: 220px;
+}
+
+.mitad6{
+    width: 100%;
+    height: 1100px;
+    margin-top: 0px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.informacion3{
+    margin-left: 100px;
+    margin-bottom: 50px;
+}
+
+/*Termotanque*/
+.termotanqueInicio{
+    height: 250px;
+}
+ .termotanques{
+    margin-top: 50px;
+ }
+
+.termo1{
+    width: 100%;
+    height: 1050px;
+    margin-top: 400px;
+}
+
+.termo2{
+    width: 100%;
+    height: 750px;
+    position: absolute;
+    margin-top: -1500px;
+}
+
+.termoFoto1{
+    height: 220px;
+    margin: 0px 10px 0px 10px;
+}
+
+.termoDibujo{
+    height: 250px;
+}
+
+.termo1 p{
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.termoCards{
+    padding-left: 10px;
+    padding-right: 20px;
+    margin-bottom: 20px;
+}
+
+.termoCardsFlex{
+    display: block;
+}
+
+/*picinas*/
+
+.picinaInicio{
+    height: 300px;
+}
+
+#clima{
+    margin-top: 50px;
+}
+
+.picinasmitad1{
+    width: 100%;
+    height: 200px;
+}
+
+.colectoresFoto1{
+    height: 250px;
+    margin: 0px 20px 20px 20px;
+}
+
+.picinasmitad2{
+    width: 100%;
+    padding-left: 20px;
+    padding-right: 20px;
+    height: 800px;
+}
+
+#pi{
+    padding-left: 20px;
+    margin-top: 300px;
+    height: 650px;
+}
+
+.colectoresFoto2{
+    position: absolute;
+    margin-top: -900px;
+    height: 200px;
+    margin-left: 15px;
+}
+
+.extende{
+    position: absolute;
+    margin-top: -50px;
+    margin-left: 20px;
+}
+
+.graficosDeTorta{
+    width: 95%;
+    margin-left: 0;
+    padding-left: 10px;
+    height: 100px;
+}
+
+.esquema1{
+    width: 100%;
+    margin-top: 50px;
+    margin-left: 20px;
+    font-size: 25px;
+}
+
+.graficosDeCasa{
+    height: 250px;
+    margin-left: 0px;
+}
+
+/*Bombeo solar*/
+.bombeoInicio{
+    height: 300px;
+}
+
+#bomb{
+    margin-top: 50px;
+}
+
+.contenedorBombeo{
+    margin-left: 0;
+    width: 100%;
+    height: 950px;
+}
+
+.bomber{
+    display: block;
+}
+
+.divBombeo{
+    height: 300px;
+    width: 90%;
+    margin: 5px 20px 5px 20px;
+}
+
+.divBombeo img{
+    height: 250px;
+    width: 100%;
+}
+
+.esquema{
+    margin-left: 20px;
+    font-size: 25px;
+}
+
+.graficoEsquema{
+    height: 250px;
+    margin-left: 0;
+    width: 100%;
+}
 
 }
 
