@@ -442,6 +442,10 @@ cursor: pointer;
     height: 700px;
 }
 
+#correo{
+    opacity: 0;
+}
+
 footer{
     margin-top: 0;
     height: 400px;
@@ -829,10 +833,10 @@ footer{
     * {
         overflow-x: hidden; }
 
+    /*index!!!*/
 
     .logo{
         margin-left: 5px;
-        margin-right: 20px;
         height: 30px;
     }
 
@@ -845,7 +849,6 @@ footer{
         top: 5px;
         right: 5px;
     }
-
     
     .navItem1{
         margin: 5px 0px 0px 0px;
@@ -884,7 +887,7 @@ footer{
     }
 
     .informacion{
-        margin: -50px 30% 0px 30%;
+        margin: -60px 30% 0px 30%;
     }
 
     .circles{
@@ -931,10 +934,10 @@ footer{
     font-size: 20px;
     }
 
-.cards2{
-    height: 670px;
-    margin-bottom: -20px;
-}
+    .cards2{
+        height: 670px;
+        margin-bottom: -20px;
+    }
 
     .card2{
         margin: 50px 10px 50px 10px;
@@ -982,12 +985,12 @@ footer{
     }
 
     .contenedorContacto{
-        height: 350px;
+        height: 445px;
     }
     
     .fotoContacto{
-    height: 350px;
-    margin-top: -350px;
+    height: 445px;
+    margin-top: -450px;
     }
 
     .contactoH2{
@@ -1000,14 +1003,14 @@ footer{
     height: 350px;
     width: 90%;
     margin-left: 10px;
-    padding-top: 10px;
+    padding-top: 0px;
     margin-bottom: 0px;
     }
 
     footer{
         margin-top: -100px;
         width: 100%;
-        height: 500px;
+        height: 460px;
     }
 
     .logo2{
@@ -1042,6 +1045,9 @@ footer{
     margin-bottom: 10px;
     }
 
+    /*Nosotros!!!!! */
+
+
 .conteinerPortadaNosotros{
     height: 400px;
 }
@@ -1066,6 +1072,12 @@ footer{
 
 
 /*fotovoltaica*/
+
+.fotovoltaica{
+    margin-top: 100px;
+    margin-left: 0px;
+}
+
 .containerOnGrid{
     display: block;
 }
@@ -1077,7 +1089,8 @@ footer{
 
 .ongridFoto1{
     height: 310px;
-    margin: 0px 10px 20px 10px;
+    width: 100%;
+    margin: 0px 10px 0px 0px;
 }
 
 .mitad2{
@@ -1105,7 +1118,8 @@ footer{
 
 .ongridFoto3{
     height: 500px;
-    margin: 0px 0px 0px 20px;
+    width: 100%;
+    margin: 0px 0px 0px 0px;
 }
 
 .mitad5{
@@ -1115,7 +1129,8 @@ footer{
 }
 
 .ongridFoto5{
-    margin: 50px 20px 20px 20px;
+    margin: 50px 0px 20px 0px;
+    width: 100%;
     height: 220px;
 }
 
@@ -1189,7 +1204,7 @@ footer{
 
 .picinasmitad1{
     width: 100%;
-    height: 200px;
+    height: 100px;
 }
 
 .colectoresFoto1{
@@ -1248,7 +1263,8 @@ footer{
 }
 
 #bomb{
-    margin-top: 50px;
+    margin-top: 20px;
+    margin-bottom: 50px;
 }
 
 .contenedorBombeo{
@@ -1274,6 +1290,7 @@ footer{
 
 .esquema{
     margin-left: 20px;
+    margin-top: 0;
     font-size: 25px;
 }
 
@@ -1288,6 +1305,344 @@ footer{
 @media only screen and (min-width: 421px) and (max-width: 1023px) {
     * {
         overflow-x: hidden; }
+
+    /*Index!!*/
+    .logo{
+        margin-left: 5px;
+        height: 30px;
+    }
+
+    .navbar-toggler-icon{
+        background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgb(236, 229, 229)' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
+    }
+
+    .navbar-toggler{
+        border: 6px solid rgb(255, 255, 255);
+        top: 5px;
+        right: 5px;
+    }
+    
+    .navItem1{
+        margin: 5px 0px 0px 0px;
+        width: 100px;
+    }
+
+    .navItem3{
+        margin: 0px 0px 0px 0px;
+        padding: 0px 0px 0px 0px;
+    }
+
+    .navItem3 a{
+        border: none;
+        width: 0px;
+        height: 0px;
+        border-radius: 0%;
+        margin: 0px 0px 0px 0px;
+        padding: 0px 0px 0px 0px;
+    }
+
+    .navItem2{
+        margin: 0px 0px 0px 0px;;
+    }
+
+    .navItem2 a{
+        border: none;
+        width: 0px;
+        height: 0px;
+        border-radius: 0%;
+        margin: 0px 0px 0px 0px;
+        padding: 0px 0px 0px 0px;
+    }
+
+    #info{
+        margin: -100px 40% 0px 40%;
+    }
+
+    .soluciones{
+        height: 700px;
+        }
+
+    .contacto2{
+        height: 550px;
+        width: 450px;
+        margin-left: 25%;
+        padding-top: 30px;
+    }
+
+    /*Nosotros!!*/
+
+    .conteinerPortadaNosotros{
+        height: 400px;
+    }
+    
+    .imgNosotros{
+        height: 400px;
+        width: 100%;
+    }
+    
+    .containerSomos{
+        height: 900px;
+    }
+    
+    footer{
+        height: 500px;
+        width: 100%;
+    }
+    
+    
+    /*fotovoltaica*/
+
+    .fotovoltaica{
+        margin-top: 100px;
+        margin-left: 0px;
+    }
+
+    .containerOnGrid{
+        display: block;
+    }
+
+    .mitad1{
+        width: 100%;
+        height: 550px;
+    }
+
+    .ongridFoto1{
+        height: 510px;
+        width: 100%;
+        margin: 0px 10px 0px 0px;
+    }
+
+    .mitad2{
+        width: 100%;
+        padding-left: 100px;
+        padding-right: 20px;
+        height: 800px;
+    }
+
+    .mitad4{
+        width: 100%;
+        height: 800px;
+        margin: 0;
+        margin-top: 550px;
+        padding-left: 100px;
+        padding-right: 20px;
+        padding-top: 50px;
+    }
+
+    .mitad3{
+        width: 100%;
+        height: 700px;
+        margin-top: -1500px;
+        position: absolute;
+    }
+
+    .ongridFoto3{
+        height: 700px;
+        width: 100%;
+        margin: 0px 0px 0px 0px;
+    }
+
+    .mitad5{
+        width: 100%;
+        height: 500px;
+        margin-top: 0px;
+    }
+
+    .ongridFoto5{
+        margin: 50px 0px 20px 0px;
+        width: 100%;
+        height: 400px;
+    }
+
+    .mitad6{
+        width: 100%;
+        height: 700px;
+        margin-top: 0px;
+        padding-left: 100px;
+        padding-right: 20px;
+    }
+
+    .informacion3{
+        margin-left: 300px;
+        margin-bottom: 100px;
+    }
+
+
+
+
+    /*Termotanque*/
+.termotanqueInicio{
+    height: 400px;
+}
+ .termotanques{
+    margin-top: 50px;
+ }
+
+.termo1{
+    width: 100%;
+    height: 1050px;
+    margin-top: 800px;
+}
+
+.termo2{
+    width: 100%;
+    height: 750px;
+    position: absolute;
+    margin-top: -1900px;
+}
+
+.termoFoto1{
+    height: 500px;
+    margin: 0px 10px 0px 10px;
+}
+
+.termoDibujo{
+    height: 500px;
+}
+
+.termo1 p{
+    padding-left: 150px;
+    padding-right: 20px;
+    font-size: 25px;
+}
+
+.termoCards{
+    padding-left: 10px;
+    padding-right: 20px;
+    margin-bottom: 20px;
+}
+
+
+/*picinas*/
+
+.picinaInicio{
+    height: 400px;
+}
+
+#clima{
+    margin-top: 50px;
+}
+
+.picinasmitad1{
+    width: 100%;
+    height: 540px;
+}
+
+.colectoresFoto1{
+    height: 500px;
+    width: 100%;
+    margin: 0px 20px 20px 0px;
+}
+
+.picinasmitad2{
+    width: 100%;
+    padding-left: 100px;
+    padding-right: 20px;
+    font-size: 25px;
+    height: 600px;
+}
+
+#colectoresP{
+    font-size: 20px;
+}
+
+#pi{
+    padding-left: 100px;
+    margin-top: 500px;
+    height: 650px;
+}
+
+.colectoresFoto2{
+    position: absolute;
+    margin-top: -1100px;
+    height: 400px;
+    margin-left: 50px;
+}
+
+.extende{
+    position: absolute;
+    margin-top: -50px;
+    margin-left: 20px;
+}
+
+.graficosDeTorta{
+    width: 95%;
+    margin-left: 0;
+    padding-left: 10px;
+    height: 200px;
+}
+
+.esquema1{
+    width: 100%;
+    margin-top: 50px;
+    margin-left: 20px;
+    font-size: 25px;
+}
+
+#picinasmitad11{
+    height: 100px;
+}
+
+.graficosDeCasa{
+    height: 500px;
+    margin-left: 0px;
+}
+
+
+
+
+
+/*Bombeo solar*/
+.bombeoInicio{
+    height: 500px;
+}
+
+#bomb{
+    margin-top: 20px;
+    margin-bottom: 50px;
+}
+
+.contenedorBombeo{
+    margin-left: 0;
+    width: 100%;
+    height: 1520px;
+}
+
+.bomber{
+    display: block;
+}
+
+.divBombeo{
+    height: 500px;
+    width: 95%;
+    margin: 5px 20px 5px 20px;
+}
+
+.divBombeo p{
+    width: 100%;
+    height: 400px;
+    margin: 0px 20px 0px 20px;
+    padding: 0;
+    font-size: 30px;
+}
+
+.divBombeo img{
+    height: 300px;
+    width: 100%;
+}
+
+.esquema{
+    margin-left: 20px;
+    margin-top: 0;
+    font-size: 25px;
+}
+
+.graficoEsquema{
+    height: 250px;
+    margin-left: 0;
+    width: 100%;
+}
+
 }
 
 @media only screen and (min-width: 1024px) {
