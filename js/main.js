@@ -1,12 +1,12 @@
-const nav = document.getElementById('menu');
+/*const nav = document.getElementById('menu');
     window.addEventListener('scroll', () => {
         if (window.scrollY >= 650) {
             nav.classList.add('active_nav');
         } else {
             nav.classList.remove('active_nav');
         }
-    })
-
+    })*/
+/*
 const des = document.getElementById('desp');
     window.addEventListener('scroll', () => {
         if (window.scrollY >= 650) {
@@ -32,7 +32,7 @@ const des2 = document.getElementById('desp2');
         } else {
             des2.classList.remove('text-black');
         }
-})
+})*/
 
 const flecha1 = document.getElementById('flecha1')
 flecha1.addEventListener('mouseover', flechas);

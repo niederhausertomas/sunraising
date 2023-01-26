@@ -35,7 +35,7 @@ nav{
 .navItem1 a{
     color: white;
     font-family: helvetica;
-    font-size: 12px;
+    font-size: 14px;
     font-weight: bold;
 }
 
@@ -46,9 +46,13 @@ nav{
 }
 
 .desplegable{
-    background: rgba(255, 255, 255, 0.308);
+    background: rgba(255, 255, 255, 0.466);
     border-radius: 0%;
     border: none;
+}
+
+.desplegable li a{
+    color: #525151;
 }
 
 .navItem2{
@@ -108,6 +112,14 @@ nav{
     width: 45px;
 }
 
+.textoFotoPortada{
+    color: white;
+    position: absolute;
+    margin-top: -180px;
+    text-align: center;
+    width: 100%;
+}
+
 .informacion{
     color: white;
     font-size: 22px;
@@ -118,7 +130,7 @@ nav{
     background: none;
     border: solid 2px white;
     border-radius: 5%;
-    margin: -160px 42% 0px 42%;
+    margin: -100px 42% 0px 42%;
 }
 
 .informacion:hover{
@@ -746,9 +758,9 @@ footer{
 }
 
 .graficosDeTorta{
-    width: 80%;
+    width: 90%;
     height: 250px;
-    margin-left: 150px;
+    margin-left: 100px;
     padding-left: 160px;
 }
 
