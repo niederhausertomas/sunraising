@@ -119,6 +119,7 @@ nav{
 
 .textoFotoPortada{
     color: white;
+    text-shadow: 1px 1px 4px black;
     position: absolute;
     margin-top: -280px;
     text-align: center;
