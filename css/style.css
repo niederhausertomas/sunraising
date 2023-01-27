@@ -910,8 +910,8 @@ footer{
         margin-left: 110px;
     }
 
-    .scott{
-    height: 300px;
+    #scott{
+    height: 150px;
     }
 
     .beneficiosH2{
@@ -941,6 +941,10 @@ footer{
 
     .card2 p{
         font-size: 13px;
+    }
+
+    #scott2{
+        height: 150px;
     }
 
     .soluciones{
