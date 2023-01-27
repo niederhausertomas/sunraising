@@ -46,13 +46,14 @@ nav{
 }
 
 .desplegable{
-    background: rgba(112, 112, 112, 0.466);
+    background: #1493C6;
     border-radius: 0%;
     border: none;
+    transition: 2s;
 }
 
 .desplegable li a{
-    color: #525151;
+    color: white;
 }
 
 .desplegable li a:hover{
