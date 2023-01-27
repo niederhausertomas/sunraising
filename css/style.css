@@ -1049,6 +1049,7 @@ footer{
 
 .cardProyectoCel{
     display: block;
+    height: 870px;
 }
 
 #spaceFooterProyectos{
@@ -1284,6 +1285,10 @@ footer{
     height: 250px;
     margin-left: 0;
     width: 100%;
+}
+
+.cardProyectos{
+    margin: 40px 30px 0px 30px;
 }
 
 }
@@ -1641,6 +1646,10 @@ footer{
     height: 250px;
     margin-left: 0;
     width: 100%;
+}
+
+.cardProyectos{
+    margin: 40px 30px 0px 30px;
 }
 
 }
