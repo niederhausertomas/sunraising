@@ -9,16 +9,12 @@ html{
     scroll-behavior: smooth;
 }
 
-nav{
-    border-bottom: solid 2px white;
-}
-
 .nav2{
     border-bottom: none;
 }
 
 .active_nav {
-    background-color: #1493C6;
+    background-color: #838383;
     transition: 2s;
 }
 
@@ -41,12 +37,11 @@ nav{
 
 .navItem1 a:hover{
     color: #aaa7a7;
-    padding-top: 11px;
     transition: 0.5s;
 }
 
 .desplegable{
-    background: #1493C6;
+    background: #838382;
     border-radius: 0%;
     border: none;
     transition: 2s;
@@ -57,11 +52,11 @@ nav{
 }
 
 .desplegable li a:hover{
-    color: black;
+    color: #aaa7a7;
 }
 
 .navItem2{
-    margin: 10px 2px 10px 130px;
+    margin: 10px 2% 10px 130px;
 }
 
 .navItem2 a{
@@ -76,23 +71,24 @@ nav{
 }
 
 .navItem2:hover a{
-    border: solid 2px #aaa7a7;
     fill: #aaa7a7; 
+    background-color: white;
+    fill: #838382;
+    border: none;
+    padding: 5px;
 }
 
 .navItem2:hover{
-    padding-top: 2px;
-    margin-bottom: -2px;
     transition: 0.5s; 
 }
 
 .navItem3{
-    margin: 10px 50px 10px 2px;
+    margin: 10px 10% 10px 2px;
 }
 
 .navItem3 a{
-    border: solid 2px white;
     object-fit: cover;
+    border: solid 2px white;
     width: 35px;
     height: 35px;
     border-radius: 50%;
@@ -102,13 +98,13 @@ nav{
 }
 
 .navItem3:hover a{
-    border: solid 2px #aaa7a7;
-    fill: #aaa7a7; 
+    border: none;
+    padding-top: 5px;
+    background-color: white;
+    fill: #838382;
 }
 
 .navItem3:hover{
-    padding-top: 2px;
-    margin-bottom: -2px;
     transition: 0.5s; 
 }
 
