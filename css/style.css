@@ -14,7 +14,7 @@ html{
 }
 
 .active_nav {
-    background-color: #838383;
+    background-color: #838382;
     transition: 2s;
 }
 
@@ -117,11 +117,11 @@ html{
     color: white;
     text-shadow: 1px 1px 4px black;
     position: absolute;
-    margin-top: -280px;
+    margin-top: -400px;
     text-align: center;
     width: 100%;
-    padding-left: 15%;
-    padding-right: 15%;
+    padding-left: 25%;
+    padding-right: 25%;
     font-weight: bold;
 }
 
@@ -135,15 +135,14 @@ html{
     background: none;
     border: solid 2px white;
     border-radius: 5%;
-    margin: -180px 42% 0px 42%;
+    margin: -180px 42% 0px 44%;
 }
 
 .informacion:hover{
-    margin-top: -175px;
     transition: 0.5s;
-    background-color: none;
-    border: solid 2px #5e5d5d;
-    color: #5e5d5d; 
+    background-color: #838382;
+    border: none;
+    color: white; 
 }
 
 #btnWhatsApp{
@@ -498,6 +497,7 @@ footer{
 
 .containerSomos{
     height: 800px;
+    margin-top: 20px;
 }
 
 .containerSomos h3{
