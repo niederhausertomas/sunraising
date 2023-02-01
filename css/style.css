@@ -14,8 +14,7 @@ html{
 }
 
 .active_nav {
-    background-color: #838382;
-    transition: 2s;
+    background-color: #1493C6;
 }
 
 .logo{
@@ -41,7 +40,7 @@ html{
 }
 
 .desplegable{
-    background: #838382;
+    background: #1493C6;
     border-radius: 0%;
     border: none;
     transition: 2s;
@@ -71,9 +70,9 @@ html{
 }
 
 .navItem2:hover a{
-    fill: #aaa7a7; 
+    fill: #1493C6; 
     background-color: white;
-    fill: #838382;
+    fill: #1493C6;
     border: none;
     padding: 5px;
 }
@@ -101,7 +100,7 @@ html{
     border: none;
     padding-top: 5px;
     background-color: white;
-    fill: #838382;
+    fill: #1493C6;
 }
 
 .navItem3:hover{
@@ -140,7 +139,7 @@ html{
 
 .informacion:hover{
     transition: 0.5s;
-    background-color: #838382;
+    background-color: #1493C6;
     border: none;
     color: white; 
 }
@@ -478,10 +477,24 @@ footer{
 
 .manu1{
     margin-bottom: 0;
+    display: block;
+    text-decoration: none;
+    color: #686767;
+}
+
+.manu1:hover{
+    color: #525151;
 }
 
 .manu2{
     margin-top: 0;
+    display: block;
+    text-decoration: none;
+    color: #686767;
+}
+
+.manu2:hover{
+    color: #525151;
 }
 
 .derechos{
@@ -535,6 +548,7 @@ footer{
 
 .texMarg{
     padding-left: 50px;
+    margin-left: 30px;
 }
 
 .ongridFoto1{
@@ -617,12 +631,9 @@ footer{
 }
 
 .informacion3:hover{
-    margin-top: 2px;
-    margin-bottom: 158px;
     transition: 0.5s;
-    background-color: none;
-    border: solid 2px #aaa7a7;
-    color: #aaa7a7; 
+    background-color: #1493C6;
+    color: white; 
 }
 
 .termotanqueInicio{
@@ -1051,7 +1062,7 @@ footer{
 
 .cardProyectoCel{
     display: block;
-    height: 870px;
+    height: 1190px;
 }
 
 #spaceFooterProyectos{
@@ -1090,12 +1101,17 @@ footer{
 
 .mitad4{
     width: 100%;
-    height: 1000px;
+    height: 1100px;
     margin: 0;
     margin-top: 550px;
     padding-left: 20px;
     padding-right: 20px;
 }
+
+.mitad4 p{
+    width: 100%;
+    height: 1000px;
+    }
 
 .mitad3{
     width: 100%;
@@ -1124,10 +1140,10 @@ footer{
 
 .mitad6{
     width: 100%;
-    height: 1100px;
+    height: 1400px;
     margin-top: 0px;
-    padding-left: 20px;
-    padding-right: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
 }
 
 .informacion3{
@@ -1193,12 +1209,15 @@ footer{
 
 .picinasmitad1{
     width: 100%;
-    height: 100px;
+    height: 250px;
+    margin-left: 0px;
+    margin-right: 0px;
 }
 
 .colectoresFoto1{
     height: 250px;
-    margin: 0px 20px 20px 20px;
+    width: 100%;
+    margin: 0px 0px 0px 0px;
 }
 
 .picinasmitad2{
@@ -1206,6 +1225,11 @@ footer{
     padding-left: 20px;
     padding-right: 20px;
     height: 800px;
+}
+
+#colectoresP{
+    margin-left: 0px;
+    padding-left: 0px;
 }
 
 #pi{
@@ -1218,7 +1242,7 @@ footer{
     position: absolute;
     margin-top: -900px;
     height: 200px;
-    margin-left: 15px;
+    margin-left: 0px;
 }
 
 .extende{
@@ -1242,6 +1266,7 @@ footer{
 
 .graficosDeCasa{
     height: 250px;
+    width: 100%;
     margin-left: 0px;
 }
 
@@ -1256,7 +1281,8 @@ footer{
 }
 
 .contenedorBombeo{
-    margin-left: 0;
+    margin-left: 0px;
+    margin-right: 0px;
     width: 100%;
     height: 950px;
 }
@@ -1275,6 +1301,14 @@ footer{
     height: 250px;
     width: 100%;
 }
+
+.divBombeo p{
+    height: 270px;
+    width: 100%;
+    padding-left: 0px;
+    margin-left: 0px;
+}
+
 
 .esquema{
     margin-left: 20px;
@@ -1419,7 +1453,7 @@ footer{
 
     .mitad2{
         width: 100%;
-        padding-left: 100px;
+        padding-left: 0px;
         padding-right: 20px;
         height: 800px;
     }
@@ -1429,7 +1463,7 @@ footer{
         height: 800px;
         margin: 0;
         margin-top: 550px;
-        padding-left: 100px;
+        padding-left: 0px;
         padding-right: 20px;
         padding-top: 50px;
     }
@@ -1463,7 +1497,7 @@ footer{
         width: 100%;
         height: 700px;
         margin-top: 0px;
-        padding-left: 100px;
+        padding-left: 0px;
         padding-right: 20px;
     }
 
@@ -1541,18 +1575,27 @@ footer{
 
 .picinasmitad2{
     width: 100%;
-    padding-left: 100px;
-    padding-right: 20px;
+    padding-left: 0px;
+    padding-right: 0px;
+    margin-left: 0px;
     font-size: 25px;
     height: 600px;
 }
 
+.picinasmitad2 p{
+    width: 100%;
+    padding-left: 0px;
+    padding-right: 0px;
+    }
+
 #colectoresP{
     font-size: 20px;
+    margin-left: 0px;
+    padding-left: 0px;
 }
 
 #pi{
-    padding-left: 100px;
+    padding-left: 0px;
     margin-top: 500px;
     height: 650px;
 }
@@ -1561,7 +1604,7 @@ footer{
     position: absolute;
     margin-top: -1100px;
     height: 400px;
-    margin-left: 50px;
+    margin-left: 0px;
 }
 
 .extende{
@@ -1607,25 +1650,33 @@ footer{
 }
 
 .contenedorBombeo{
-    margin-left: 0;
+    margin-left: 0px;
+    margin-right: 0px;
+    padding-left: 0px;
+    padding-right: 0px;
     width: 100%;
-    height: 1520px;
+    height: 1600px;
 }
 
 .bomber{
     display: block;
 }
 
+.contenedorBombeo{
+    margin-right: 0px;
+}
+
 .divBombeo{
     height: 500px;
-    width: 95%;
-    margin: 5px 20px 5px 20px;
+    width: 100%;
+    margin: 5px 0px 5px 120px;
+    padding: 0px 0px 0px 0px;
 }
 
 .divBombeo p{
     width: 100%;
-    height: 400px;
-    margin: 0px 20px 0px 20px;
+    height: 410px;
+    margin: 0px 0px 0px 0px;
     padding: 0;
     font-size: 30px;
 }
