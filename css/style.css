@@ -125,8 +125,10 @@ html{
 }
 
 .textoFotoPortada img{
-    height: 120px;
-    margin-right: -20px;
+    height: 100px;
+    margin-left: 40%;
+    margin-bottom: 20px;
+    display: block;
 }
 
 .informacion{
