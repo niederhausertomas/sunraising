@@ -242,7 +242,7 @@ cursor: pointer;
     background-repeat: no-repeat;
     background-size: cover;
     position: relative;
-    background-image: url("https://github.com/niederhausertomas/sunrising/blob/main/images/pexels-scott-webb-137602.jpg?raw=true"); }
+    background-image: url("../images/pexels-scott-webb-137602.jpg") ; }
 
 
 .beneficios{
@@ -283,7 +283,7 @@ cursor: pointer;
     background-repeat: no-repeat;
     background-size: cover;
     position: relative;
-    background-image: url("https://github.com/niederhausertomas/sunrising/blob/main/images/pexels-pixabay-356049.jpg?raw=true"); }
+    background-image: url("../images/pexels-pixabay-356049.jpg"); }
 
 .soluciones{
     height: 600px;
