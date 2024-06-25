@@ -14,7 +14,7 @@ html{
 }
 
 .active_nav {
-    background-color: #1493C6;
+    background-color: #7ec4ab;
 }
 
 .logo{
@@ -40,7 +40,7 @@ html{
 }
 
 .desplegable{
-    background: #1493C6;
+    background: #7EC4AB;
     border-radius: 0%;
     border: none;
     transition: 2s;
@@ -70,9 +70,8 @@ html{
 }
 
 .navItem2:hover a{
-    fill: #1493C6; 
+    fill: #7EC4AB; 
     background-color: white;
-    fill: #1493C6;
     border: none;
     padding: 5px;
 }
@@ -100,7 +99,7 @@ html{
     border: none;
     padding-top: 5px;
     background-color: white;
-    fill: #1493C6;
+    fill: #7EC4AB;
 }
 
 .navItem3:hover{
@@ -146,7 +145,7 @@ html{
 
 .informacion:hover{
     transition: 0.5s;
-    background-color: #1493C6;
+    background-color: #7EC4AB;
     border: none;
     color: white; 
 }
@@ -213,20 +212,20 @@ cursor: pointer;
 }
 
 .informacion2{
-    color: #1493C6;
+    color: #7EC4AB;
     font-size: 22px;
     font-weight: 50px;
     height: 50px;
     width: 170px;
     position: absolute;
     background: none;
-    border: solid 2px #1493C6;
+    border: solid 2px #7EC4AB;
     border-radius: 5%;
     margin: -160px 40% 0px 44%;
 }
 
 .informacion2:hover{
-    background-color:#1493C6;
+    background-color:#7EC4AB;
     border: none;
     color: white; 
 }
@@ -324,22 +323,22 @@ cursor: pointer;
 }
 
 .barra1{
-    background-color: #1493C6;
+    background-color: #49B595;
     z-index: 10;
 }
 
 .barra2{
-    background-color: #5EB5F4;
+    background-color: #7EC4AB;
     z-index: 10;
 }
 
 .barra3{
-    background-color: #86C7F6;
+    background-color: #A4D3C0;
     z-index: 10;
 }
 
 .barra4{
-    background-color: #0077C1;
+    background-color: #1AA27A;
     z-index: 10;
 }
 
@@ -353,7 +352,7 @@ cursor: pointer;
     color: rgba(255, 255, 255, 0);
     padding-top: 15px;
     font-size: 10px;
-    color: #1493C6;
+    color: #49B595;
     text-decoration: none;
     margin-left: 60px;
 }
@@ -414,12 +413,12 @@ cursor: pointer;
 
 .btnContacto{
     width: 80%;
-    background-color: #1493C6;
+    background-color: #7EC4AB;
     border: none;
 }
 
 .btnContacto:hover{
-    background-color: #0077C1;
+    background-color: #49B595;
 }
 
 .CamposObligatorios{
@@ -626,20 +625,20 @@ footer{
 }
 
 .informacion3{
-    color: #1493C6;
+    color: #7EC4AB;
     font-size: 22px;
     font-weight: 50px;
     height: 50px;
     width: 170px;
     background: none;
-    border: solid 2px #1493C6;
+    border: solid 2px #7EC4AB;
     border-radius: 5%;
     margin: 10px 40% 150px 44%;
 }
 
 .informacion3:hover{
     transition: 0.5s;
-    background-color: #1493C6;
+    background-color: #7EC4AB;
     color: white; 
 }
 
