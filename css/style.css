@@ -17,10 +17,15 @@ html{
     background-color: #7ec4ab;
 }
 
-.logo{
-    height: 45px;
+.navbar-brand{
     margin-left: 100px;
     margin-right: 100px;
+}
+
+.logo{
+    height: 45px;
+    margin-left: 0px;
+    margin-right: 0px;
 }
 
 .navItem1{
@@ -843,6 +848,11 @@ footer{
         background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgb(236, 229, 229)' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
     }
 
+    .navbar-brand{
+        margin-left: 10px;
+        margin-right: 100px;
+    }
+
     .navbar-toggler{
         border: none;
         top: 5px;
@@ -1367,6 +1377,11 @@ footer{
     .logo{
         margin-left: 5px;
         height: 30px;
+    }
+
+    .navbar-brand{
+        margin-left: 10px;
+        margin-right: 100px;
     }
 
     .navbar-toggler-icon{
