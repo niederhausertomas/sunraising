@@ -543,6 +543,12 @@ footer{
     margin-bottom: 100px;
 }
 
+.fotovoltaicaInicio{
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+
 .containerOnGrid{
     display: flex;
 }
